@@ -1,10 +1,10 @@
 # git-notes
 
-- Inicializando um Repositório e Realizando o Primeiro Commit
-- Padrões de Mensagens de Commit
-- Desfazendo Commits no Git
-- Git Merge vs. Git Rebase
-- Workflow com Rebase
+- [Inicializando um Repositório e Realizando o Primeiro Commit](#inicializando-um-repositório-e-realizando-o-primeiro-commit)
+- [Padrões de Mensagens de Commit](#padrões-de-mensagens-de-commit)
+- [Desfazendo Commits no Git](#desfazendo-commits-no-git)
+- [Git Merge vs. Git Rebase](#git-merge-vs-git-rebase)
+- [Workflow com Rebase](#workflow-com-rebase)
 
 
 ## Inicializando um Repositório e Realizando o Primeiro Commit
@@ -31,7 +31,7 @@
 
 5. **Conectando ao Repositório Remoto no GitHub:**
    ```
-   git remote add origin https://github.com/leon-augusto/teste.git
+   git remote add origin https://github.com/leon-augusto/git-notes.git
    ```
 
 6. **Enviando o Commit Inicial para o Repositório Remoto:**
