@@ -2,6 +2,7 @@
 
 - [Inicializando um Repositório e Realizando o Primeiro Commit](#inicializando-um-repositório-e-realizando-o-primeiro-commit)
 - [Padrões de Mensagens de Commit](#padrões-de-mensagens-de-commit)
+- [Status e Histórico do Repositório](#status-e-histórico-do-repositório)
 - [Desfazendo Commits no Git](#desfazendo-commits-no-git)
 - [Git Merge vs. Git Rebase](#git-merge-vs-git-rebase)
 - [Workflow com Rebase](#workflow-com-rebase)
@@ -60,6 +61,17 @@
   git commit -m "feat: Implementação do chat na home page" #jira-230
   ```
 
+## Status e Histórico do Repositório
+
+1. **Obtendo o Status**
+   ```
+   git status
+   ```
+3. **Acessando o Histórico**
+   ```
+   git log
+   ```
+
 ## Desfazendo Commits no Git
 
 1. **Removendo Alterações em um Arquivo não Commitado:**
@@ -89,14 +101,15 @@
 
 ## Git Merge vs. Git Rebase
 
-- Ambos são usados para mesclar alterações de duas branches diferentes.
-- **Git Merge:**
-  - Gera um novo commit.
-  - Não reescreve o histórico.
-
-- **Git Rebase:**
-  - Deixa o histórico linear e mais simples.
-  - Alguns commits são reescritos.
+   - Ambos são usados para mesclar alterações de duas branches diferentes.
+   
+      ```git merge``` gera um novo commit e não reescreve o histórico.
+      
+         git merge
+         
+      ```git rebase``` deixa o histórico linear e mais simples e alguns commits são reescritos.
+      
+         git rebase
 
 **Importante:**
 - Evitar rebase na branch master.
