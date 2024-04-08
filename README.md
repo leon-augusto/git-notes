@@ -56,7 +56,12 @@
   - **docs:** Atualização de documentação.
   - **chore:** Manutenção regular do código.
 
-  Exemplo:
+  Exemplo 1:
+  ```
+  git commit -m "feat: Implementação do chat na home page" -m "Descrição"
+  ```
+
+  Exemplo 2 (com Metodologia Ágil):
   ```
   git commit -m "feat: Implementação do chat na home page" #jira-230
   ```
